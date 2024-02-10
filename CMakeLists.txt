@@ -1,5 +1,7 @@
-t pull
+project(hw)
+cmake_minimum_required(VERSION 3.25)
 add_subdirectory(mod2_task1)
 add_subdirectory(table)
 add_subdirectory(mycat)
 add_subdirectory(shm)
+add_subdirectory(sig)
